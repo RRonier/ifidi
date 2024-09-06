@@ -1,0 +1,104 @@
+/* reset.css */
+
+/* Box-sizing border-box reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+button,
+input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Normalize line height in all browsers */
+body,
+button,
+input,
+select,
+textarea {
+    line-height: 1.5;
+}
+
+/* Remove list styles (bullet points and numbering) */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove default styles for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Remove default styles for form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+/* Remove the border on images inside links in IE 10/11 */
+img {
+    border-style: none;
+}
+
+/* Remove extra space in IE 8 */
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Optionally, you can add your own styles below this line */
+
+/* Example: Add global styles for your Next.js app */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Add more custom styles as needed */
